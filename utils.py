@@ -34,6 +34,13 @@ def build_vocab(texts, min_freq=2,specials=('<pad>','<unk>')):
 
 def load_splits(csv_path: str, test_size=0.2, val_size=0.1, min_freq=2, max_len=64):
     df = pd.read_csv(csv_path)
+    
+    # Map 'type' column to numerical 'label'
+    if 'type' in df.columns:
+        df = df[df['type'].isin(['benign', 'phishing'])] # Filter out other types
+        df['label'] = df['type'].map({'benign': 0, 'phishing': 1})
+        df = df.rename(columns={'url': 'text'}) # Rename 'url' to 'text'
+    
     df = df.dropna(subset=["text", "label"])
     df["text"] = df["text"].astype(str)
     df["label"] = df["label"].astype(int)

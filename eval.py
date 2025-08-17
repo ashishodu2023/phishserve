@@ -44,7 +44,7 @@ def evaluate(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", type=str, default="data/urls.csv", help="path to csv file")
+    parser.add_argument("--csv", type=str, default="data/malicious_phish.csv", help="path to csv file")
     parser.add_argument("--ckpt", type=str, default="artifacts/best.pt", help="path to model checkpoint")
     parser.add_argument("--batch_size", type=int, default=1024, help="batch size")
     args = parser.parse_args()

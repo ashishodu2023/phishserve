@@ -12,7 +12,7 @@ def tune(args):
 
         # Sample hyperparameters
         params = {
-            'csv': 'data/urls.csv',
+            'csv': 'data/malicious_phish.csv',
             'epochs': random.randint(5, 20),
             'batch_size': random.choice([32, 64, 128, 256]),
             'max_len': random.randint(64, 128),

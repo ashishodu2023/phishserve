@@ -91,7 +91,7 @@ def train(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", type=str, default="data/urls.csv", help="path to csv file")
+    parser.add_argument("--csv", type=str, default="data/malicious_phish.csv", help="path to csv file")
     parser.add_argument("--epochs", type=int, default=10, help="number of epochs")
     parser.add_argument("--batch_size", type=int, default=512, help="batch size")
     parser.add_argument("--max_len", type=int, default=64, help="max length of url")
