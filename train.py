@@ -15,7 +15,7 @@ def train(args):
     dev = device()
     os.makedirs(args.out_dir, exist_ok=True)
 
-    train_ds, val_ds, test_ds, stoi, itos = load_splits(args.csv, min_freq=2, max_len=args.max_len)
+    train_ds, val_ds, test_ds, stoi, itos = load_splits(args.csv, min_freq=2, max_len=args.max_len, balance_classes=args.balance_classes)
     
     # save vocab
     save_vocab(itos, os.path.join(args.out_dir, "itos.txt"))
@@ -100,5 +100,6 @@ if __name__ == "__main__":
     parser.add_argument("--lr", type=float, default=2e-3, help="learning rate")
     parser.add_argument("--wd", type=float, default=1e-2, help="weight decay")
     parser.add_argument("--out_dir", type=str, default="artifacts", help="output directory")
+    parser.add_argument("--balance_classes", action="store_true", help="balance classes by undersampling majority class")
     args = parser.parse_args()
     train(args)

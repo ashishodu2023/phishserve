@@ -2283,3 +2283,147 @@ ModuleNotFoundError: No module named 'nvgpu'
     import nvgpu
 ModuleNotFoundError: No module named 'nvgpu'
 
+2025-08-17T03:03:03,254 [ERROR] Thread-30 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:03:03,254 [ERROR] Thread-30 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:04:03,252 [ERROR] Thread-31 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:04:03,252 [ERROR] Thread-31 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:05:03,253 [ERROR] Thread-32 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:05:03,253 [ERROR] Thread-32 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:06:03,257 [ERROR] Thread-33 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:06:03,257 [ERROR] Thread-33 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:07:03,251 [ERROR] Thread-34 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:07:03,251 [ERROR] Thread-34 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:08:03,253 [ERROR] Thread-35 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:08:03,253 [ERROR] Thread-35 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:09:03,252 [ERROR] Thread-36 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:09:03,252 [ERROR] Thread-36 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:10:03,252 [ERROR] Thread-37 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2025-08-17T03:10:03,252 [ERROR] Thread-37 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/metrics/system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+

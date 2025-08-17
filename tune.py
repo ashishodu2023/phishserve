@@ -15,12 +15,13 @@ def tune(args):
             'csv': 'data/malicious_phish.csv',
             'epochs': random.randint(5, 20),
             'batch_size': random.choice([32, 64, 128, 256]),
-            'max_len': random.randint(64, 128),
+            'max_len': random.randint(64, 150),
             'emb_dim': random.choice([64, 128, 256]),
             'hid': random.choice([64, 128, 256]),
             'lr': random.uniform(1e-4, 1e-2),
             'wd': random.uniform(1e-5, 1e-2),
-            'out_dir': 'artifacts'
+            'out_dir': 'artifacts',
+            'balance_classes': True
         }
 
         print("Training with params:", params)
@@ -45,6 +46,6 @@ def tune(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--num_trials", type=int, default=10, help="number of trials to run")
+    parser.add_argument("--num_trials", type=int, default=50, help="number of trials to run")
     args = parser.parse_args()
     tune(args)

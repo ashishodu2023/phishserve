@@ -22,7 +22,7 @@ PhishServe is a machine learning project for detecting phishing URLs. It uses a 
 To train the model, run the `train.py` script. You can customize the training parameters using command-line arguments.
 
 ```bash
-python train.py --epochs 10 --batch_size 64 --lr 0.001
+python train.py --epochs 10 --batch_size 64 --lr 0.001 --balance_classes
 ```
 
 The trained model and vocabulary will be saved in the `artifacts` directory.
@@ -42,7 +42,7 @@ After the tuning process completes, the best hyperparameters will be printed to 
 To evaluate the trained model on the test set, run the `eval.py` script.
 
 ```bash
-python eval.py --ckpt artifacts/best.pt
+python eval.py --ckpt artifacts/best.pt --balance_classes
 ```
 
 This will print a classification report, confusion matrix, and other metrics.
@@ -95,6 +95,7 @@ curl http://127.0.0.1:8080/predictions/phishserve -H "Authorization: Bearer $INF
 | - Clean URLs      |
 | - Build Vocabulary|
 | - Split Data      |
+| - Balance Classes |
 +-------------------+
          |
          v

@@ -11,7 +11,28 @@ import pandas as pd
 
 def evaluate(args):
     dev = device()
-    df = pd.read_csv(args.csv).dropna(subset=["text","label"])
+    df = pd.read_csv(args.csv)
+    
+    # Map 'type' column to numerical 'label'
+    if 'type' in df.columns:
+        df = df[df['type'].isin(['benign', 'phishing'])] # Filter out other types
+        df['label'] = df['type'].map({'benign': 0, 'phishing': 1})
+        df = df.rename(columns={'url': 'text'}) # Rename 'url' to 'text'
+
+    df = df.dropna(subset=["text","label"])
+
+    # Undersample majority class if balance_classes is True
+    if args.balance_classes:
+        min_class_count = df['label'].value_counts().min()
+        balanced_df = pd.DataFrame()
+        for label in df['label'].unique():
+            sampled_df = df[df['label'] == label].sample(min_class_count, random_state=42)
+            balanced_df = pd.concat([balanced_df, sampled_df])
+        df = balanced_df.sample(frac=1, random_state=42).reset_index(drop=True)
+
+    df["text"] = df["text"].astype(str)
+    df["label"] = df["label"].astype(int)
+
     # load artifacts
     ck = torch.load(args.ckpt, map_location=dev)
     
@@ -47,5 +68,7 @@ if __name__ == "__main__":
     parser.add_argument("--csv", type=str, default="data/malicious_phish.csv", help="path to csv file")
     parser.add_argument("--ckpt", type=str, default="artifacts/best.pt", help="path to model checkpoint")
     parser.add_argument("--batch_size", type=int, default=1024, help="batch size")
+    parser.add_argument("--balance_classes", action="store_true", help="balance classes by undersampling majority class")
     args = parser.parse_args()
     evaluate(args)
+
