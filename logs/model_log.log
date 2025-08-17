@@ -1,0 +1,368 @@
+2025-08-17T02:23:04,263 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:04,264 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:04,264 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:04,264 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:04,265 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:23:05,905 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:05,905 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:05,905 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:05,905 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:05,906 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:23:07,542 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:07,543 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:23:10,170 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:10,170 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:10,171 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:23:13,801 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:13,802 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:19,438 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:19,439 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:19,439 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:19,439 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:23:28,071 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:28,072 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:23:41,708 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:24:03,343 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:24:03,346 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:24:37,969 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:25:33,598 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:25:33,599 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:25:33,599 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:25:33,599 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:27:03,245 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:27:03,245 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 15, in <module>
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/async_service.py", line 14, in <module>
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/handler_utils/utils.py", line 5, in <module>
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/protocol/otf_message_handler.py", line 16, in <module>
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/utils/util.py", line 14, in <module>
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG -     import yaml
+2025-08-17T02:27:03,248 [WARN ] W-9000-phishserve_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2025-08-17T02:30:02,265 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=18998
+2025-08-17T02:30:02,266 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:30:02,270 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:30:02,270 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]18998
+2025-08-17T02:30:02,270 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:30:02,270 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:30:02,278 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:30:02,293 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:30:02,402 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:30:02,402 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:30:02,402 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:30:02,402 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend worker process died.
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 301, in <module>
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     worker.run_server()
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 268, in run_server
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 196, in handle_connection
+2025-08-17T02:30:02,484 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                             ^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 133, in load_model
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -               ^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_loader.py", line 143, in load
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 30, in initialize
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.model = self.load_model(model_dir)
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 48, in load_model
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     model = PhishingClassifier(vocab_size=len(self.itos), emb_dim=ck["emb_dim"], hid=ck["hid"], num_classes=2, pad_idx=self.PAD)
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                                                                                                                        ^^^^^^^^
+2025-08-17T02:30:02,485 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - AttributeError: 'PhishHandler' object has no attribute 'PAD'
+2025-08-17T02:30:04,033 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=19052
+2025-08-17T02:30:04,033 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:30:04,035 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:30:04,035 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]19052
+2025-08-17T02:30:04,035 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:30:04,035 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:30:04,037 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:30:04,047 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:30:04,105 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:30:04,106 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:30:04,106 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:30:04,106 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend worker process died.
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 301, in <module>
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     worker.run_server()
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 268, in run_server
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 196, in handle_connection
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                             ^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 133, in load_model
+2025-08-17T02:30:04,176 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -               ^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_loader.py", line 143, in load
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 30, in initialize
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.model = self.load_model(model_dir)
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 48, in load_model
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     model = PhishingClassifier(vocab_size=len(self.itos), emb_dim=ck["emb_dim"], hid=ck["hid"], num_classes=2, pad_idx=self.PAD)
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                                                                                                                        ^^^^^^^^
+2025-08-17T02:30:04,177 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - AttributeError: 'PhishHandler' object has no attribute 'PAD'
+2025-08-17T02:30:05,719 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=19089
+2025-08-17T02:30:05,720 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:30:05,722 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:30:05,722 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]19089
+2025-08-17T02:30:05,722 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:30:05,722 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:30:05,723 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:30:05,731 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:30:05,817 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:30:05,817 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:30:05,817 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:30:05,817 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend worker process died.
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 301, in <module>
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     worker.run_server()
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 268, in run_server
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 196, in handle_connection
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                             ^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 133, in load_model
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -               ^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_loader.py", line 143, in load
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 30, in initialize
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.model = self.load_model(model_dir)
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 48, in load_model
+2025-08-17T02:30:05,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     model = PhishingClassifier(vocab_size=len(self.itos), emb_dim=ck["emb_dim"], hid=ck["hid"], num_classes=2, pad_idx=self.PAD)
+2025-08-17T02:30:05,898 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                                                                                                                        ^^^^^^^^
+2025-08-17T02:30:05,898 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - AttributeError: 'PhishHandler' object has no attribute 'PAD'
+2025-08-17T02:30:08,446 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=19138
+2025-08-17T02:30:08,446 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:30:08,449 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:30:08,449 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]19138
+2025-08-17T02:30:08,449 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:30:08,449 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:30:08,450 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:30:08,458 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:30:08,542 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:30:08,542 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:30:08,542 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:30:08,542 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend worker process died.
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 301, in <module>
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     worker.run_server()
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 268, in run_server
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 196, in handle_connection
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                             ^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 133, in load_model
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -               ^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_loader.py", line 143, in load
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 30, in initialize
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.model = self.load_model(model_dir)
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 48, in load_model
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     model = PhishingClassifier(vocab_size=len(self.itos), emb_dim=ck["emb_dim"], hid=ck["hid"], num_classes=2, pad_idx=self.PAD)
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                                                                                                                        ^^^^^^^^
+2025-08-17T02:30:08,619 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - AttributeError: 'PhishHandler' object has no attribute 'PAD'
+2025-08-17T02:30:12,163 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=19175
+2025-08-17T02:30:12,163 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:30:12,166 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:30:12,166 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]19175
+2025-08-17T02:30:12,166 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:30:12,166 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:30:12,167 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:30:12,179 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:30:12,264 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:30:12,264 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:30:12,264 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:30:12,264 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend worker process died.
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 301, in <module>
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     worker.run_server()
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 268, in run_server
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 196, in handle_connection
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                             ^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 133, in load_model
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -               ^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_loader.py", line 143, in load
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 30, in initialize
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.model = self.load_model(model_dir)
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:12,342 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 48, in load_model
+2025-08-17T02:30:12,343 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     model = PhishingClassifier(vocab_size=len(self.itos), emb_dim=ck["emb_dim"], hid=ck["hid"], num_classes=2, pad_idx=self.PAD)
+2025-08-17T02:30:12,343 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                                                                                                                        ^^^^^^^^
+2025-08-17T02:30:12,343 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - AttributeError: 'PhishHandler' object has no attribute 'PAD'
+2025-08-17T02:30:17,891 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=19244
+2025-08-17T02:30:17,891 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:30:17,894 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:30:17,894 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]19244
+2025-08-17T02:30:17,894 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:30:17,894 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:30:17,895 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:30:17,903 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:30:18,002 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:30:18,002 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:30:18,002 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:30:18,002 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend worker process died.
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 301, in <module>
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     worker.run_server()
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 268, in run_server
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 196, in handle_connection
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                             ^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_service_worker.py", line 133, in load_model
+2025-08-17T02:30:18,084 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -               ^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/model_loader.py", line 143, in load
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 30, in initialize
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     self.model = self.load_model(model_dir)
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -   File "/tmp/models/db14d21b8f18488c81b8e6e9bc7acd3a/handler.py", line 48, in load_model
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -     model = PhishingClassifier(vocab_size=len(self.itos), emb_dim=ck["emb_dim"], hid=ck["hid"], num_classes=2, pad_idx=self.PAD)
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG -                                                                                                                        ^^^^^^^^
+2025-08-17T02:30:18,085 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - AttributeError: 'PhishHandler' object has no attribute 'PAD'
+2025-08-17T02:30:54,897 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=19611
+2025-08-17T02:30:54,898 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:30:54,900 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:30:54,901 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]19611
+2025-08-17T02:30:54,901 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:30:54,901 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:30:54,908 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:30:54,926 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:30:55,023 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:30:55,023 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:30:55,023 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:30:55,023 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:31:17,142 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend received inference at: 1755423077
+2025-08-17T02:34:03,656 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=20622
+2025-08-17T02:34:03,657 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2025-08-17T02:34:03,658 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Successfully loaded /home/ashishverma/Documents/phishserve/.venv/lib/python3.12/site-packages/ts/configs/metrics.yaml.
+2025-08-17T02:34:03,659 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - [PID]20622
+2025-08-17T02:34:03,659 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch worker started.
+2025-08-17T02:34:03,659 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Python runtime: 3.12.3
+2025-08-17T02:34:03,665 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2025-08-17T02:34:03,679 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - model_name: phishserve, batchSize: 1
+2025-08-17T02:34:03,789 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Enabled tensor cores
+2025-08-17T02:34:03,790 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - OpenVINO is not enabled
+2025-08-17T02:34:03,790 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - proceeding without onnxruntime
+2025-08-17T02:34:03,790 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Torch TensorRT not enabled
+2025-08-17T02:34:41,644 [INFO ] W-9000-phishserve_1.0-stdout MODEL_LOG - Backend received inference at: 1755423281

@@ -1,0 +1,7 @@
+2025-08-17T02:23:11,390 - /127.0.0.1:37010 "PUT /predictions/phishserve HTTP/1.1" 400 1
+2025-08-17T02:27:11,434 - /127.0.0.1:44818 "POST /predictions/phishclf HTTP/1.1" 400 0
+2025-08-17T02:30:05,699 - /127.0.0.1:43448 "PUT /predictions/phishserve HTTP/1.1" 400 1
+2025-08-17T02:30:16,221 - /127.0.0.1:38932 "POST /predictions/phishclf HTTP/1.1" 400 0
+2025-08-17T02:31:01,594 - /127.0.0.1:50810 "PUT /predictions/phishserve HTTP/1.1" 400 1
+2025-08-17T02:31:17,210 - /127.0.0.1:45328 "PUT /predictions/phishserve HTTP/1.1" 200 69
+2025-08-17T02:34:41,713 - /127.0.0.1:35100 "PUT /predictions/phishserve HTTP/1.1" 200 72
