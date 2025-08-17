@@ -87,6 +87,7 @@ def train(args):
             }, os.path.join(args.out_dir, "best.pt"))
 
     print("Training done. Best val loss:", best_val)
+    return best_val
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

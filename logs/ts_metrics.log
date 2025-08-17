@@ -20,3 +20,9 @@
 2025-08-17T02:34:41,714 - ts_queue_latency_microseconds.Microseconds:115.185|#model_name:phishserve,model_version:default|#hostname:ashishverma-System-Product-Name,timestamp:1755423281
 2025-08-17T02:34:41,714 - QueueTime.Milliseconds:0.0|#Level:Host|#hostname:ashishverma-System-Product-Name,timestamp:1755423281
 2025-08-17T02:34:41,714 - WorkerThreadTime.Milliseconds:1.0|#Level:Host|#hostname:ashishverma-System-Product-Name,timestamp:1755423281
+2025-08-17T02:54:25,749 - ts_inference_requests_total.Count:1.0|#model_name:phishserve,model_version:default|#hostname:ashishverma-System-Product-Name,timestamp:1755424465
+2025-08-17T02:54:25,764 - Requests2XX.Count:1.0|#Level:Host|#hostname:ashishverma-System-Product-Name,timestamp:1755424465
+2025-08-17T02:54:25,764 - ts_inference_latency_microseconds.Microseconds:14895.362|#model_name:phishserve,model_version:default|#hostname:ashishverma-System-Product-Name,timestamp:1755424465
+2025-08-17T02:54:25,764 - ts_queue_latency_microseconds.Microseconds:39.945|#model_name:phishserve,model_version:default|#hostname:ashishverma-System-Product-Name,timestamp:1755424465
+2025-08-17T02:54:25,764 - QueueTime.Milliseconds:0.0|#Level:Host|#hostname:ashishverma-System-Product-Name,timestamp:1755424465
+2025-08-17T02:54:25,765 - WorkerThreadTime.Milliseconds:0.0|#Level:Host|#hostname:ashishverma-System-Product-Name,timestamp:1755424465
