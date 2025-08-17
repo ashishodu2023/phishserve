@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+
+# Caches
+__pycache__/
+
+# Artifacts
+artifacts/
+
+# Data
+data/
+
+# Logs
+logs/
+
+# Secrets
+key_file.json
+
+# IDE
+.vscode/
